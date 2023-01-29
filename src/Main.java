@@ -2,7 +2,7 @@ import java.io.File;
 
 public class Main {
     public static void main(String[] args) {
-        String folderName = "C:\\Users\\User\\Desktop";
+        String folderName = "D:\\тренинги";
         File file = new File(folderName);
         System.out.println(getFolderSize(file));
     }
